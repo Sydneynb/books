@@ -51,11 +51,12 @@ function AddNew({ children }: { children: ReactNode }) {
         <div className='grid flex-1 auto-rows-min gap-6 px-4'>
           <div className='grid gap-3'>
             <Label>Title</Label>
-            <Input defaultValue='Pedro Duarte' />
+            <Input />
           </div>
+
           <div className='grid gap-3'>
-            <Label htmlFor='sheet-demo-username'>Author</Label>
-            <Input defaultValue='@peduarte' />
+            <Label>Assignee</Label>
+            <Input />
           </div>
 
           <div className='grid gap-3'>
@@ -90,8 +91,8 @@ function AddNew({ children }: { children: ReactNode }) {
           </div>
 
           <div className='grid gap-3'>
-            <Label>Assignee</Label>
-            <Input defaultValue='@peduarte' />
+            <Label>Description</Label>
+            <Input />
           </div>
         </div>
 
