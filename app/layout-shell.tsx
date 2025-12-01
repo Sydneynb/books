@@ -7,7 +7,7 @@ export default function LayoutShell({ children }: { children: ReactNode }) {
     <SidebarProvider>
       <div className='relative flex h-screen w-full'>
         <DashboardSidebar />
-        <SidebarInset className='flex flex-col grow w-full'>
+        <SidebarInset className='flex flex-col grow w-full p-5'>
           {children}
         </SidebarInset>
       </div>
