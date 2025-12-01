@@ -301,7 +301,7 @@ export default function TableView() {
   };
 
   return (
-    <div className='rounded-lg border bg-card w-[95%]'>
+    <div className='rounded-lg border bg-card'>
       <Table>
         <TableHeader>
           <TableRow className='hover:bg-transparent border-b'>
