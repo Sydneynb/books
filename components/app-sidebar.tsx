@@ -67,7 +67,7 @@ export function DashboardSidebar() {
           <Logo className='h-8 w-8' />
           {!isCollapsed && (
             <span className='font-semibold text-black dark:text-white'>
-              Acme
+              McGill Library
             </span>
           )}
         </a>

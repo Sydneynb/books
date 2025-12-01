@@ -405,7 +405,7 @@ export default function TableView() {
   };
 
   return (
-    <div className='rounded-lg border bg-card'>
+    <div className='rounded-lg border bg-card max-w-[calc(100vw-16rem-40px)] w-[calc(100vw-16rem-40px)] group-has-data-[state=collapsed]/sidebar-wrapper:max-w-full group-has-data-[state=collapsed]/sidebar-wrapper:w-full'>
       <Table className='max-w-[calc(100vw-'>
         <TableHeader>
           <TableRow className='hover:bg-transparent border-b'>
